@@ -7,6 +7,7 @@ function exit (){
 	if (name != ""){
 		alert("Leaving " + name + "'s game");
 	}
+	alert("Leaving the game!")
 	loadpage("https://u1973250.github.io/p_individual/")
 	name = "";
 }

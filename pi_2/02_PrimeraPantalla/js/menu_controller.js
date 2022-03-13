@@ -7,7 +7,7 @@ function exit (){
 	if (name != ""){
 		alert("Leaving " + name + "'s game");
 	}
-	loadpage("./pi_2/02_PrimeraPantalla/")
+	loadpage("https://u1973250.github.io/p_individual/")
 	name = "";
 }
 

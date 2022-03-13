@@ -1,6 +1,17 @@
 #title{
+	font-size: 30px;
+	line-height: 75px;
+	background:#302ea3; 
+	color:white; 
+	padding:10px 20px;
+}
+
+#header{
 	font-size: 26px;
 	line-height: 75px;
+	background:#302ea3; 
+	color:white; 
+	padding:10px 20px;
 }
 
 .menu-object{

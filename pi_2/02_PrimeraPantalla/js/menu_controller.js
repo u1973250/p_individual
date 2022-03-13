@@ -6,8 +6,8 @@ function start_game(){
 function exit (){
 	if (name != ""){
 		alert("Leaving " + name + "'s game");
-		loadpage("./pi_2/02_PrimeraPantalla/")
 	}
+	loadpage("./pi_2/02_PrimeraPantalla/")
 	name = "";
 }
 

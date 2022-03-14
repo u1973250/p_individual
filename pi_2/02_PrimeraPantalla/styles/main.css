@@ -43,3 +43,20 @@ body{
     grid-gap : 1 em;
     min-height: 35vh;
 }
+
+img{
+    border : 5 px;
+
+}
+.imatge{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:35 px;
+    heigth: 80 vh;
+}
+#imatges{
+    display:block;
+    margin-left: 35 px;
+    margin-right: 35 px;
+}

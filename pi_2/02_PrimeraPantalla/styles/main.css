@@ -6,7 +6,7 @@
 	padding:10px 20px;
 }
 
-#header{
+#he1{
 	font-size: 26px;
 	line-height: 75px;
 	background:#302ea3; 
@@ -40,3 +40,7 @@ button.menu-object:hover:not(:active){
 	height: 85px;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}

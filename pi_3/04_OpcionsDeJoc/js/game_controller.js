@@ -9,13 +9,14 @@ var load = function(){
 	options_data = JSON.parse(json);
 };
 load();
+
 var game = new Vue({
 	el: "#game_id",
 	data: {
 		username:'',
 		current_card: [],
 		items: [],
-		num_cards: 2,
+		num_cards: options_data.cards,
 		bad_clicks: 0
 	},
 	created: function(){

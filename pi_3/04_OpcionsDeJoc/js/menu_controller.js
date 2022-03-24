@@ -10,6 +10,7 @@ function exit (){
 	if (name != ""){
 		alert("Leaving " + name + "'s game");
 	}
+	loadpage("https://u1973250.github.io/p_individual/pi_3/04_OpcionsDeJoc/");
 	name = "";
 }
 

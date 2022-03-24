@@ -1,7 +1,14 @@
 const back = "../resources/back.png";
 const items = ["../resources/cb.png","../resources/co.png","../resources/sb.png",
 "../resources/so.png","../resources/tb.png","../resources/to.png"];
-
+var options_data = {
+	cards:2, dificulty:"hard"
+};
+var load = function(){
+	var json = localStorage.getItem("config") || '{"cards":2,"dificulty":"hard"}';
+	options_data = JSON.parse(json);
+};
+load();
 var game = new Vue({
 	el: "#game_id",
 	data: {
